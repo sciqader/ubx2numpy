@@ -30,7 +30,7 @@ elvf_lat = elvf_lat[elvf_lat ! = 0]
 
 #####
 # this part is for education
-# list of satellites which send SBAS correction signal in an event (e.g. #10)
+# list of satellites which send SBAS correction signal in an event (e.g. event #10)
 svID_corrSource = data[10]['sig']['svid'][data[10]['sig']['corrsource'] == 1]
 # now list all the satellites which contributed in the solution
 used_svID = data[10]['used_sat'][:data[10]['nsat']]

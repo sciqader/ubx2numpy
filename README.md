@@ -27,10 +27,10 @@ As shown in the diagram, not all the information from the ublox file is converte
 # An analysis example
 
 
-```
-mport numpy as np
+``` python
+import numpy as np
 
-data = np.load('dc_GA_GP_SBAS.ubx.npy') # load gps measurement from the data container
+data = np.load('dc_GA_GP_SBAS.ubx.npy') # load gps measurements from the data container
 
 lat = data['pos']['lat'] # get the measured latitudes
 lon = data['pos']['lon'] # get the measured longitudes
@@ -89,9 +89,4 @@ for d in data:
 
 corrsat_filter = np.asarray(l)
 ```
-
-#
-# author: Qader Dorosti
-# email: qader.dorosti@uni-siegen.de
-# time: 10:50 21.06.2022
 
