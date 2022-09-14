@@ -45,10 +45,7 @@ print(np.in1d(used_svID, svID_corrSource).any() )
 print(np.in1d(used_svID, svID_corrSource).sum() )
 ####
 
-# now we want to use this information
-# to filter out events where there are 
-# less than 5 correction satellites 
-# for the solutions
+# now we want to use this information to filter out events where there are less than 5 correction satellites for the solutions
 l = []
 for d in data:
 	svID_corrSource = d['sig']['svid'][d['sig']['corrsource'] == 1 ]
