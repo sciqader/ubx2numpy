@@ -1,0 +1,13 @@
+*~
+#*#
+*.log
+*.dvi
+*.pdf
+*.ps
+*.aux
+*.toc
+*.out
+*.backup
+*.ods
+.~lock*
+.DS_Store
