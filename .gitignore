@@ -3,6 +3,7 @@
 *.log
 *.dvi
 *.key
+*.pdf
 *.ps
 *.aux
 *.toc
