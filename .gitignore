@@ -9,5 +9,7 @@
 *.out
 *.backup
 *.ods
+*.npy
+__pycache__
 .~lock*
 .DS_Store
