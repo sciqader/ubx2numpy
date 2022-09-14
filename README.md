@@ -16,8 +16,7 @@ python main_transform_data.py -i Messung_Galileo_GPS.ubx
 
 This can take some time depending on the size of the file. 
 
-At the end, the programm converts the ubx data into a numpy array arranging them in a data container defined as shown in the following diagram.
-
+At the end, the programm converts the ubx data into a numpy array arranging them in a data container defined as shown in the [this](https://github.com/sciqader/ubx2numpy/blob/main/diagram.pdf) diagram.
 
 #
 # author: Qader Dorosti
