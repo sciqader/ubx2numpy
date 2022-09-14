@@ -11,7 +11,7 @@ pyubx2
 
 # a run example:
 ``` sh
-python main_transform_data.py -i Messung_Galileo_GPS.ubx  
+python main_transform_data.py -i GA_GP_SBAS.ubx
 ```
 
 This can take some time depending on the size of the file. 
