@@ -16,7 +16,7 @@ python main_transform_data.py -i GA_GP_SBAS.ubx
 
 This can take some time depending on the size of the file. 
 
-At the end, the programm converts the ubx data into a numpy array arranging them in a data container defined as shown in the [this](https://github.com/sciqader/ubx2numpy/blob/main/diagram.png) diagram. The output file will be formated dc_inputfilename.npy, for the example here it is called:
+At the end, the programm converts the ubx data into a numpy array arranging them in a data container defined as shown in [this](https://github.com/sciqader/ubx2numpy/blob/main/diagram.png) diagram. The output file will be formated dc_inputfilename.npy, for the example here it is called:
 
 ```
 dc_GA_GP_SBAS.ubx.npy
