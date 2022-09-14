@@ -2,7 +2,7 @@
 #*#
 *.log
 *.dvi
-*.pdf
+*.key
 *.ps
 *.aux
 *.toc
