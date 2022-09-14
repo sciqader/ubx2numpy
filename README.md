@@ -1,11 +1,12 @@
 # ubx2numpy
 
 This progarm transforms the Ublox data measured by a GPS antenna into a Numpy array. The Python modules required to run this programme are:
-# numpy 
-# pyubx2
+\fbox{numpy}
+\fbox{pyubx2}
 
 # a run example:
-```python main_transform_data.py -i Messung_Galileo_GPS.ubx  
+``` sh
+python main_transform_data.py -i Messung_Galileo_GPS.ubx  
 ```
 
 This can take some time depending on the size of the file. 
