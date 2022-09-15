@@ -39,7 +39,7 @@ lon = data['pos']['lon'] # get the measured longitudes
 #  e.g. due to premature completion of the measurement, rectify this by:
 lat = lat[lat != 0]
 
-pfilter_data = data[data['dop']['pdop'] < 2] # select of the subset of data with a pdop value < 2
+pfilter_data = data[data['dop']['pdop'] < 2] # select a subset of data with a pdop value < 2
 
 pf_lat = pfilter_data['pos']['lat'] # get latitudes for pdop < 2
 
